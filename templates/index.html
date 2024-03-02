@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Gesture Control</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <header>
+        <h1 id="heading">Welcome to Hand Gesture Control</h1>
+    </header>
+    <main>
+        <div class="button-container">
+            <form id="volume" action="/run_volume" method="post">
+                <button type="submit" id="runCodeBtn">Run Volume Control</button>
+            </form>
+        </div>
+        <div class="button-container">
+            <form id="presentation" action="/run_presentation" method="post">
+                <button type="submit" id="runCodeBtn1">Run Presentation Control</button>
+            </form>
+        </div>
+        <div class="button-container">
+            <form id="mouse" action="/run_vmouse" method="post">
+                <button type="submit" id="runCodeBtn2">Run Virtual Mouse</button>
+            </form>
+        </div>
+        <div class="button-container1">
+            <a href="/about" id="aboutBtn">Gesture Control Overview</a>
+        </div>
+    </main>
+</body>
+</html>

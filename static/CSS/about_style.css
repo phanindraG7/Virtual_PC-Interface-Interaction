@@ -1,0 +1,77 @@
+/* static/css/about_style.css */
+body {
+    /* Add styles specific to the "About" page */
+    background-color: black;
+    /background-image: url('../images/image.jpeg');/
+    /background-size: cover;/
+    /background-position: center top;/
+    /background-repeat: no-repeat;/
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: #dab860;
+}
+.he{
+    color: #dab860;
+}
+h1 {
+    font-size: 36px;
+    color: #333; /* Example text color for the "About" page */
+}
+
+main {
+    text-align: left; /* Align content to the left on the "About" page */
+    padding-top: 50px;
+}
+
+h3 {
+    font-size: 30px;
+    color: #d7d0d0; /* Example text color for the "About" page */
+}
+.about-content {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+.about-text{
+    padding-left: 45px;
+    width: 60%;
+}
+
+.about-image img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    height: auto;
+}
+
+.about-text ul {
+    list-style-type: none;
+    padding: 0;
+     columns: 2; /* Display the list in two columns */
+    column-gap: 20px;
+}
+
+.about-text li {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 8px;
+}
+.additional-content{
+    padding-left: 15px;
+}
+.about-text1 ul {
+    /list-style-type: none;/
+    list-style-type: disc;
+    padding-left: 30px;
+    margin-left: 20px;
+}
+.about-text1 li{
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}

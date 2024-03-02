@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Hand Gesture Control</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/about_style.css') }}">
+</head>
+<body>
+    <header>
+        <h1 class="he">Your Handy Guide to Using Hand Gestures Effectively</h1>
+    </header>
+    <main>
+        <section class="about-content">
+            <div class="about-image">
+                <img src="{{ url_for('static', filename='images/points.jpeg') }}" alt="Hand Image">
+            </div>
+            <div class="about-text">
+                <h3>Hand Land Marks</h3>
+                <ul>
+                    <li>0. WRIST</li>
+                    <li>1. THUMB_CMC</li>
+                    <li>2. THUMB_MCP</li>
+                    <li>3. THUMB_IP</li>
+                    <li>4. THUMB_TIP</li>
+                    <li>5. INDEX FINGER MCP</li>
+                    <li>6. INDEX FINGER PIP</li>
+                    <li>7. INDEX FINGER DIP</li>
+                    <li>8. INDEX FINGER TIP</li>
+                    <li>9. MIDDLE FINGER MCP</li>
+                    <li>10. MIDDLE FINGER PIP</li>
+                    <li>11. MIDDLE FINGER DIP</li>
+                    <li>12. MIDDLE FINGER TIP</li>
+                    <li>13. RING FINGER_MCP</li>
+                    <li>14. RING FINGER PIP</li>
+                    <li>15. RING FINGER DIP</li>
+                    <li>16. RING FINGER TIP</li>
+                    <li>17. PINKY MCP</li>
+                    <li>18. PINKY PIP</li>
+                    <li>19. PINKY DIP</li>
+                    <li>20. PINKY TIP</li>
+                    <!-- Add the rest of your list items -->
+                </ul>
+            </div>
+        </section>
+
+        <section class="additional-content">
+            <div class="about-text1">
+             <h3>1. Gestures for Volume Control :</h3>
+             <ul>
+                <li>Show your hand towards the camera and then slowly move your thumb (finger 1).</li>
+                <li>Move finger 2 (index finger) towards or away from finger 1 to adjust the volume (closer to decrease, farther to increase).</li>
+                <li>For precise volume control, fold finger 5 (pinky finger).</li>
+             </ul>
+
+                <h3>2. Explore Hand Gestures for PowerPoint Control :</h3>
+                <ul>
+                    <li>Click "Run Presentation" and upload a specific PowerPoint file.</li>
+                    <li>Raise finger 5 (pinky finger) to move to the next slide, and raise finger 1 (thumb) for the previous slide.</li>
+                    <li>Raise finger 2 and finger 3 to display a pointer.</li>
+                    <li>For drawing on the slide, use finger 2 (index finger).</li>
+                    <li>To undo a drawing, simultaneously show three fingers 2, 3, and 4 simultaneously.</li>
+                </ul>
+
+                <h3>3. Virtual Mouse Gestures for Navigation :</h3>
+                <ul>
+                    <li>Point your finger 2 (index finger) to move the cursor in the displayed direction.</li>
+                    <li>Touch your thumb and index finger together for a double-click operation.</li>
+                </ul>
+
+<!--                <h3>4. Instructions to Switch :</h3>-->
+<!--                <ul>-->
+<!--                    <li>If "V" is displayed for 3 seconds, switch to Volume mode.</li>-->
+<!--                    <li>If the index finger is shown for 3 seconds, switch to [Specify the mode].</li>-->
+<!--                    &lt;!&ndash; Replace [Specify the mode] with the actual mode you are switching to. &ndash;&gt;-->
+<!--                </ul>-->
+            </div>
+        </section>
+    </main>
+</body>
+</html>
